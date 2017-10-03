@@ -1,5 +1,6 @@
 function button()
-{
-	alert("Thank you for Subscribing!");
-	return true;
+{ if( document.getElementById('emailaddress').value === '' ){
+      alert('Please insert your Email Address');
+    }
+	
 }
